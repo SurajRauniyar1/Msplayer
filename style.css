@@ -80,7 +80,7 @@ nav ul li{
     display: flex;
     height: 50px;
     background-color: rgb(56, 15, 77);
-     width: 350px;
+     width: 85vw;
     /* padding: -100 -100; */   
     margin: 10px;
     justify-content: center;
