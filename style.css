@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body{
     background-color: rgb(36, 19, 57);
@@ -36,17 +37,17 @@ nav ul li{
     padding: 0;
 }
 .container{
-    min-height: 72vh;
+    height: 95vh;
     background-color: rgb(12, 37, 3);
     font-family: lobster;
     display:flex;
     color: rgb(0, 0, 0);
-    margin: 50px auto ;
-    width: 70%;
+    /* margin: 50px auto ; */
+    width: 100vw;
     align-content: center;  
     /* justify-content: center;  */
     border-radius: 20px;
-    padding: 50px;
+    padding: 30px;
     background-image:url('img/music.jpg') ;
     /* background-repeat: no-repeat; */
     background-position-x: center;
@@ -70,7 +71,7 @@ nav ul li{
     cursor:pointer;
 }
 #progressbar{
-    width: 85vw;
+    width:100vw;
     text-align: center;
     display: flex;
     cursor: pointer;
@@ -138,5 +139,4 @@ nav ul li{
     body{
         background-color: aqua;
     } */
-} 
-    
+
