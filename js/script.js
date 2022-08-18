@@ -9,16 +9,19 @@ let songitems = Array.from(document.getElementsByClassName('songitem'));
 
 
 let songs=[
-    {songname: "Agar tum saath ho ", filePath:"songs/1.mp3", coverPath:"img/agar.jpg" },
-    {songname: "Ae dil hai muskil", filePath:"songs/1.mp3",coverPath:"img/ae.jpg" },
-    {songname: "tum hi ho", filePath:"songs/2.mp3",coverPath:"img/tum.jpg" },
-    {songname: "channa mereya", filePath:"songs/3.mp3",coverPath:"img/channa.jpg" },
-    {songname: "tujhe kitna", filePath:"songs/4.mp3",coverPath:"img/tujhe.jpg" },
-    {songname: "khairiyat", filePath:"songs/1.mp3",coverPath:"img/khairiyat.jpg" },
-    {songname: "Humdard", filePath:"songs/2.mp3",coverPath:"img/humdard.jpg" },
-    {songname: "sanam re", filePath:"songs/3.mp3",coverPath:"img/sanam.jpg" },
-    {songname: "jaan'nisaar", filePath:"songs/4.mp3",coverPath:"img/jaan.jpg" },
-    {songname: "Baatein ye kabhi na", filePath:"songs/1.mp3",coverPath:"img/baate.jpg" }]
+    {songname: "Mere-Humsafar", filePath:"songs/1.mp3", coverPath:"img/mere.jpg"},
+    {songname: "Agar tum saath ho ", filePath:"songs/2.mp3", coverPath:"img/agar.jpg" },
+    {songname: "Ae dil hai muskil", filePath:"songs/3.mp3",coverPath:"img/ae.jpg" },
+    {songname: "tum hi ho", filePath:"songs/4.mp3",coverPath:"img/tum.jpg" },
+    {songname: "channa mereya", filePath:"songs/5.mp3",coverPath:"img/channa.jpg" },
+    {songname: "tujhe kitna", filePath:"songs/6.mp3",coverPath:"img/tujhe.jpg" },
+    {songname: "khairiyat", filePath:"songs/7.mp3",coverPath:"img/khairiyat.jpg" },
+    {songname: "Humdard", filePath:"songs/8.mp3",coverPath:"img/humdard.jpg" },
+    {songname: "sanam re", filePath:"songs/9.mp3",coverPath:"img/sanam.jpg" },
+    {songname: "jaan'nisaar", filePath:"songs/10.mp3",coverPath:"img/jaan.jpg" },
+    {songname: "Baatein ye kabhi na", filePath:"songs/11.mp3",coverPath:"img/baate.jpg" },
+ 
+]
 
     
 songitems.forEach((element,i) => {
